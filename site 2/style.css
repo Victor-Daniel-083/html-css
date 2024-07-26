@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: 'Epilogue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(rgb(253, 251, 251), rgba(255, 255, 255, 0.993));
+}
+
+.header-flex-container {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 5px;
+}
+
+.logo {
+    padding-left: 55px;
+    padding-top: 10px;
+}
+
+.header-options {
+    flex-grow: 1;
+    justify-content: start;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-left: 90px;
+}
+
+.header-options ul {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-options a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration:none;
+    color: black;
+}
+
+.header-access {
+    padding-right: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header-access li {
+    display: inline; 
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.header-access a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-register button {
+    font-size: 20px;
+    font-weight: 500;
+    padding-inline: 15px;
+    padding-block: 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.hero {
+    display: flex;
+    padding: 20px;
+}
+
+.hero-left {
+    height: 380px;
+    width: 650px;
+    padding-top: 100px;
+    padding-left: 180px;
+}
+
+.hero-title {
+    margin-bottom: 20px;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.hero-left-description{
+    width: 500px;
+    color: rgba(0, 0, 0, 0.514);
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.section-lean-more button {
+    font-size: 15px;
+    margin-top: 15px;
+    padding-inline: 15px;
+    padding-block: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.section-logo{
+    display: inline-block;
+    margin-top: 60px;
+}
+
+section img{
+    margin-right: 50px;
+}
+
+.hero-right {
+    height: 480px;
+    width: 400px;
+}
+
+.hero-right img{
+    padding-block: 50px;
+    width: 310px;
+}
+
+
+footer > p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.514);
+    padding: auto;
+}
+
+
+    
