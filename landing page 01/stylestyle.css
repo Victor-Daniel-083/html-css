@@ -47,14 +47,12 @@ a:hover{
 #inscreva-se-btn:hover{
     background-color: rgb(132, 14, 201);
     color: white;
-
 }
 
 main{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
-
 }
 
 h2{
